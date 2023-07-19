@@ -1,0 +1,8 @@
+<section class="flex-container">
+  <p class="title">{{ watch.title }}</p>
+  <p>{{ watch.score }}</p>
+  <p [ngClass]="setClasses()">{{ watch.status }}</p>
+  <button (click)="onDelete(watch)" title="New show" class="button">
+    delete
+  </button>
+</section>

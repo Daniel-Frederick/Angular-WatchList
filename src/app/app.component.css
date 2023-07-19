@@ -1,0 +1,43 @@
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+main {
+  background-color: #5758bb;
+  width: 55vw;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 15px 0;
+}
+
+ul {
+  margin: 5px 0;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  /* background-color: red; */
+}
+
+hr {
+  margin: 0 0;
+}
+
+a {
+  color: green;
+  background-color: orange;
+  padding: 6px;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: orangered;
+}

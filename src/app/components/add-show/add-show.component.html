@@ -1,0 +1,46 @@
+<section>
+  <p class="title">Add New Show</p>
+  <div class="label-flex-container">
+    <p>Title</p>
+    <p class="score">Score 0-10</p>
+    <p>Status</p>
+  </div>
+</section>
+<form (ngSubmit)="onSubmit()" class="flex-container">
+  <input
+    type="text"
+    name="title"
+    [(ngModel)]="title"
+    placeholder="Set Show Title"
+  />
+  <select name="score" title="Score" [(ngModel)]="score">
+    <option>0</option>
+    <option>1</option>
+    <option>2</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+  </select>
+  <select class="classStatus" name="status" title="Status" [(ngModel)]="status">
+    <option>Plan To Watch</option>
+    <option>Watching</option>
+    <option>Completed</option>
+  </select>
+  <button type="submit" title="Add Show">Add Show</button>
+</form>
+<br />
+<section class="warning-flex-container">
+  <p *ngIf="warningTitle">*Provide a Title*</p>
+  <p *ngIf="warningStatus">*Provide a Status*</p>
+</section>
+<br />
+<section class="list-header">
+  <p>Title</p>
+  <p>Score</p>
+  <p>Status</p>
+</section>
+<br />

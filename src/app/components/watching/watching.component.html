@@ -1,0 +1,5 @@
+<app-show-item
+  *ngFor="let watch of watchList"
+  [watch]="watch"
+  (deleteShow)="deleteShow($event)"
+></app-show-item>

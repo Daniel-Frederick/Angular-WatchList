@@ -1,0 +1,14 @@
+body {
+  background-color: #0097e6;
+  display: block;
+  align-content: center;
+  font-family: "Mulish", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

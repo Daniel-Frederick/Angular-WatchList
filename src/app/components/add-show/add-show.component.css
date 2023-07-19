@@ -1,0 +1,87 @@
+/* 
+Last things to do: 
+Align the show-items correctly
+finish the routes
+*/
+.flex-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  flex: 1 1 100px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+form input {
+  /* margin: 5px 28px; */
+  width: 105px;
+  height: 20px;
+  align-self: center;
+}
+
+form p {
+  margin: 10px 8px;
+  margin-left: 20px;
+}
+
+button {
+  width: 77px;
+  height: 20px;
+  align-self: center;
+}
+
+select {
+  height: 28px;
+  align-self: center;
+  font-size: 18px;
+}
+
+.warning-flex-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  flex: 1 1 100px;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.warning-flex-container p {
+  color: rgba(255, 0, 0);
+  margin: 0;
+}
+
+.label-flex-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 28%;
+  flex: 1 1 100px;
+  justify-content: space-between;
+  margin-right: 120px;
+}
+
+div p {
+  margin: 0;
+}
+
+.classStatus {
+  width: 145px;
+}
+
+.title {
+  font-size: 22px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.list-header {
+  display: inline-flex;
+  width: 40%;
+  justify-content: center;
+}
+
+.list-header p {
+  margin: 0 0 0 75px;
+}

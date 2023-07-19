@@ -1,0 +1,36 @@
+.flex-container {
+  background-color: green;
+  font-size: 20px;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  flex: 1 1 100px;
+  justify-content: end;
+  align-items: baseline;
+}
+
+p {
+  margin: 0 15px;
+}
+
+.title {
+  margin-right: 100px;
+  font-weight: 500;
+}
+
+button {
+  width: 65px;
+  height: 25px;
+  font-size: 18px;
+}
+
+.completed {
+  margin: 0 48px 0 18px;
+}
+
+.watching {
+  margin: 0 58px 0 18px;
+}
